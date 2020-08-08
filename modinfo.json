@@ -1,0 +1,8 @@
+{
+	"type": "content",
+	"name": "ResinCandles",
+	"description": "Candles made out of Resin!",
+	"authors": ["Adori","JoeRogan"],
+	"version": "1.0",
+  	"gameversions": [ "1.12.14" ],
+}

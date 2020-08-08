@@ -1,0 +1,41 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"resincandle": "block/resincandle"
+	},
+	"elements": [
+		{
+			"name": "resincandle",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 3.0, 9.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#resincandle", "uv": [ 0.0, 13.0, 2.0, 16.0 ] },
+				"east": { "texture": "#resincandle", "uv": [ 4.0, 13.0, 6.0, 16.0 ] },
+				"south": { "texture": "#resincandle", "uv": [ 9.0, 13.0, 11.0, 16.0 ] },
+				"west": { "texture": "#resincandle", "uv": [ 11.0, 13.0, 13.0, 16.0 ] },
+				"up": { "texture": "#resincandle", "uv": [ 12.0, 2.0, 14.0, 4.0 ] },
+				"down": { "texture": "#resincandle", "uv": [ 12.0, 14.0, 14.0, 16.0 ] }
+			},
+			"children": [
+				{
+					"name": "top",
+					"from": [ 0.8, 3.0, 0.8 ], 
+					"to": [ 1.2, 3.5, 1.2 ], 
+					"faces": {
+						"north": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.5 ] },
+						"east": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.5 ] },
+						"south": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.5 ] },
+						"west": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.5 ] },
+						"up": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.0 ] },
+						"down": { "texture": "#resincandle", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}
